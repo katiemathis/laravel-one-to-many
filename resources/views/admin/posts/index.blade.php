@@ -26,7 +26,7 @@
                                 <td><a href="{{route('admin.posts.show', $post->id)}}">{{$post->title}}</a></td>
                                 <td>{{substr($post->content, 0, 30)}}</td>
                                 <td>{{$post->slug}}</td>
-                                <td>{{$post->category->category_name}}</td>
+                                
                                 <td class="d-flex">    
                                     <a href="{{route('admin.posts.show', $post->id)}}" class="btn btn-primary m-2">View</a>
                                     <a href="{{route('admin.posts.edit', $post->id)}}" class="btn btn-secondary m-2">Edit</a>
